@@ -3,10 +3,10 @@
 ```mermaid
 sequenceDiagram
     autonumber
-    participant ps as PubSub
-    participant omr as "OMR 5 Star Checklist\nService"
-    participant fs as "5 Star\nService"
-    participant lm as "LM\nbased on Donut"
+    participant ps as "PubSub"
+    participant omr as "OMR 5 Star Checklist Service"
+    participant fs as "5 Star Service"
+    participant lm as "LM based on Donut"
 
     activate ps
     omr->>ps: read the message
