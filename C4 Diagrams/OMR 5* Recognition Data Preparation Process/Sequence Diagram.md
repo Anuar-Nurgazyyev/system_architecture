@@ -1,4 +1,5 @@
-<pre>
+# Sequence Diagram
+
 ```mermaid
 sequenceDiagram
     autonumber
@@ -35,5 +36,3 @@ sequenceDiagram
     omr->>omr: filter the results, supply<br>ICD codes that the API knows.
     omr->>fs: Added recognized code statuses<br>to the version of this document<br>api/user-service/v1/<br>fivestar/v1/5star-form.
     deactivate omr
-```
-</pre>
